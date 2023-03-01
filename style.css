@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+body,html{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%; 
+       background-color:#1f2937;
+}
+*{
+box-sizing: border-box;
+
+
+
+font-family: 'Roboto', sans-serif;
+}
+.section--1{
+   
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+
+    background-color:#1f2937;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nav-bar{
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #1f2937;
+
+}
+    
+  
+.columnyap{
+    display: flex;
+     flex-direction: row;
+}
+ .logo { 
+border: 1px solid #1f2937;
+margin-right: auto;
+font-size: 24px;
+font-weight: bold;
+ }
+.nav-bar a {
+    margin:5px;
+    padding: 3px;
+    font-size: 18px;
+    
+
+}
+
+.awesome{
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+  margin-top: 80px; 
+  background-color:#1f2937;
+   
+   
+}
+.awesome .child-1{
+   color: white;
+   
+    margin-right: 100px;
+    margin-top: 20px;
+}
+}
+.awesome .child-1 h1 {
+    font-size:  48px;
+    font-weight:bolder;
+    width: 200px;
+}
+.awesome .child-1 p{
+    width:400px;
+
+}
+.awesome button{
+   width: 66px;
+   background-color: #3882f6;
+    text-align: center;
+    color: white;
+    border: 0px;
+}
+.awesome .child-2{
+    
+ align-items: center;
+    text-align: center;
+    color:#F9FAF8;
+    width:600px;
+    height:200px;
+    background-color: gray;
+    margin-left: 20px;
+}
+.awesome .child-2 p {
+ margin-top: 100px;
+}
