@@ -12,10 +12,12 @@ body,html{
 *{
 box-sizing: border-box;
 
-
+/*ending general models*/
 
 font-family: 'Roboto', sans-serif;
 }
+
+/*starting section-1 for navbar */
 .section--1{
    
     max-width: 100%;
@@ -54,6 +56,7 @@ font-weight: bold;
     
 
 }
+/*ending section-1 for navbar */
 
 .awesome{
     margin-right: 20%;
@@ -72,22 +75,28 @@ font-weight: bold;
 }
 }
 .awesome .child-1 h1 {
-    font-size:  48px;
+    display: flex;
+    font-size: 48px;
     font-weight:bolder;
     width: 200px;
 }
 .awesome .child-1 p{
     width:400px;
+    font-size: 18px;
+    color:#e6e7eb;
 
 }
 .awesome button{
-   width: 66px;
+   width: 85px;
+   height: 60px;
    background-color: #3882f6;
     text-align: center;
     color: white;
     border: 0px;
 }
+/*ending child-1  */
 .awesome .child-2{
+    margin-top: 60px;
     
  align-items: center;
     text-align: center;
@@ -100,3 +109,121 @@ font-weight: bold;
 .awesome .child-2 p {
  margin-top: 100px;
 }
+.section--2{
+    display: flex;
+    flex-direction: column;
+max-width: 100%;
+font-family: 'Roboto', sans-serif;
+
+background-color:#ffffff;
+color: white;
+margin-left:0px;
+margin-right: 0px;
+}
+.section--2 header{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+color:#1f2937}
+.section--2 .images{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    
+}
+/*starting to section-2*/
+.section--2 .images img{
+   height: 200px;
+   width: 200px;
+   border:solid blue 4px;
+   border-radius: 10px;
+   
+}
+.section--2 .imginfo {display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap:30px;
+    
+}
+.section--2 .imginfo p { display: flex;
+    width:200px;
+    font-size: 20px;
+    text-align: center;
+     color:#1f2937;
+   }
+   /*ending section-2*/
+.section--3 {background-color: #e5e7eb;
+height: 500px;
+
+}
+.section--3 .qoute em{
+    display: flex;
+width: 300px;
+    
+    text-align: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 40%;
+    color: rgb(76, 78, 80);
+
+}
+.section--3 .qoute strong{
+    display: flex;
+    width: 300px;
+        
+        text-align: center;
+        
+        margin-left: 55%;
+        margin-bottom: 8%;
+
+}
+.section--4 {
+  display: flex;
+  background-color: white;
+  height: auto;
+ justify-content: center;
+  
+}
+.section--4 .bluezone {display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    width: 850px;
+    height: 70px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+   
+   border-radius: 1em;
+    justify-content: center;
+}
+.section--4 .bluezone strong {color:white}
+.section--4 .bluezone p{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.section--4 .bluezone .btn button 
+{
+    margin-left: 8%;
+    background-color:#3882f6;
+    margin-left: 60px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 0.1em;
+color: white;
+}
+.section--5{
+    display: flex;
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.section--5 em{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+  
+}
+
